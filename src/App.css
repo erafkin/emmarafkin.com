@@ -1,10 +1,12 @@
 .App {
   text-align: center;
-  background-image: url('./alaska.jpg');
+  background-image: url('./assets/me.jpg');
   background-size:cover;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom:60px;
+
 }
 h1{
   margin: 0 auto;
@@ -23,12 +25,13 @@ a:visited{
   height: 40vmin;
   pointer-events: none;
 }
-.titles{
-padding-top: 10%;
+.title{
+padding-top: 15%;
+color: white;
 }
 .jobs{
   height:100vh;
-  background-image: url('./moosilauke.jpg');
+  background-image: url('./assets/moosilauke.jpg');
   background-size:cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -44,7 +47,7 @@ padding-top: 10%;
 }
 .personal-projects{
   height:100vh;
-  background-image: url('./alaska_tents.jpg');
+  background-image: url('./assets/alaska.jpg');
   background-size:cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -53,7 +56,7 @@ padding-top: 10%;
 }
 .education{
   height:100vh;
-  background-image: url('./franc.jpg');
+  background-image: url('./assets/franc.jpg');
   background-size:cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -79,6 +82,12 @@ padding-top: 10%;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.location-tag{
+position: fixed;
+bottom: 0;
+text-align: left;
+color: white;
 }
 .landing-page{
  height: 100vh;
