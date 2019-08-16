@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Could have been done in plain HTML/CSS, but creating this in react allows for further expansion of this site in the future.
+
 ## Available Scripts
 
 In the project directory, you can run:

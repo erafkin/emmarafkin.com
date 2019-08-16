@@ -1,12 +1,23 @@
 .App {
   text-align: center;
-  background-image: url('./franc.jpg');
+  background-image: url('./alaska.jpg');
   background-size:cover;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+h1{
+  margin: 0 auto;
+}
+a{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+.name{
+  font-size: 48pt;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -17,26 +28,48 @@ padding-top: 10%;
 }
 .jobs{
   height:100vh;
-  background-color: whitesmoke;
+  background-image: url('./moosilauke.jpg');
   background-size:cover;
-
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.job{
+  display: block;
+  background-color: rgb(244, 244, 244, .7);
+  margin: 1%;
+  padding: 1%;
+  width:70%;
+  margin-left: 15%;
 }
 .personal-projects{
   height:100vh;
-  background-color: whitesmoke;
-  background-size:cover;}
+  background-image: url('./alaska_tents.jpg');
+  background-size:cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 .education{
-height: 100vh;
-background: inherit;
+  height:100vh;
+  background-image: url('./franc.jpg');
+  background-size:cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .school{
   text-align: left;
-  background-color: rgb(244, 244, 244, .8);
+  background-color: rgb(244, 244, 244, .7);
   width: 40%;
   margin:1%;
   display: inline-block;
   padding: 1%;
+  top:0;
+  vertical-align: middle;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
