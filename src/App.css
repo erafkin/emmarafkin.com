@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url('./franc.jpg');
+  background-size:cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -7,7 +12,31 @@
   height: 40vmin;
   pointer-events: none;
 }
+.titles{
+padding-top: 10%;
+}
+.jobs{
+  height:100vh;
+  background-color: whitesmoke;
+  background-size:cover;
 
+}
+.personal-projects{
+  height:100vh;
+  background-color: whitesmoke;
+  background-size:cover;}
+.education{
+height: 100vh;
+background: inherit;
+}
+.school{
+  text-align: left;
+  background-color: rgb(244, 244, 244, .8);
+  width: 40%;
+  margin:1%;
+  display: inline-block;
+  padding: 1%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,7 +47,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.landing-page{
+ height: 100vh;
+}
 .App-link {
   color: #61dafb;
 }
