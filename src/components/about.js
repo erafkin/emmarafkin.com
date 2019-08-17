@@ -14,7 +14,7 @@ class About extends Component {
           I am a Dartmouth '21 from <a href = "https://www.youtube.com/watch?v=HOp8w2PgHlM" target = "_blank" rel = "noopener noreferrer">Chicago, IL.</a> <br/>
           I grew up going to school on UChicago's campus, so I was lucky in that I had access to a lot of CS courses throughout high school. <br/>
           I was a competitive rock climber throughout most of my childhood and was a youth climbing coach for 5 years. <br/>
-          I have also been a camp counselor for the past 3 years, so I love working with children and beign in the outdoors. <br/>
+          I have also been a camp counselor for the past 3 years, so I love working with children and being in the outdoors (these background pictures are from some of my favorite hikes)! <br/>
           </p>
           <h2> Current Extracurricular Activities</h2>
           <div>
