@@ -4,6 +4,7 @@ import About from './components/about';
 import Jobs from './components/jobs';
 import Personal_Projects from './components/personal_projects';
 
+
 function App() {
 
   return (
@@ -18,8 +19,7 @@ function App() {
       <About location = {footer(1)}/>
       <Jobs location = {footer(2)}/>
       <Personal_Projects location = {footer(3)}/>
-      {/* <div className = "location-tag">{this.props.location}</div> */}
-  
+      
     </div>
   );
 }

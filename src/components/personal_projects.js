@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import github from '../assets/github.png';
+import email from '../assets/email.png';
+import linkedIn from '../assets/linkedin.png';
 
 class Personal_Projects extends Component {
     constructor(props) {
@@ -21,13 +24,12 @@ class Personal_Projects extends Component {
         <b><a href = "https://github.com/erafkin/secretSanta" target = "_blank" rel = "noopener noreferrer">Secret Santa</a></b>
             <p>A simple HTML/CSS/Javascript website that helps generate secret santa assignments amongst inputted names.</p>
         </div>
-        <div className = "job">
-          <p>For more, visit my <a href = "https://github.com/erafkin/" target = "_blank" rel = "noopener noreferrer">github</a>!</p>
-          <p> Connect with me on <a href = "https://www.linkedin.com/in/emma-rafkin-2966406b/" target = "_blank" rel = "noopener noreferrer">LinkedIn </a> 
-          or <a href = "mailto:emma.p.rafkin.21@dartmouth.edu">email </a>me!
-         </p>
-        </div>
 
+        <div className = "links">
+       <a href = "https://github.com/erafkin/" target = "_blank" rel = "noopener noreferrer"><img src = {github}/> </a>
+         <a href = "https://www.linkedin.com/in/emma-rafkin-2966406b/" target = "_blank" rel = "noopener noreferrer"><img src = {linkedIn}/> </a> 
+           <a href = "mailto:emma.p.rafkin.21@dartmouth.edu"><img src = {email}/> </a>
+      </div>
       </div>
         );
 };

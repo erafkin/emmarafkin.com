@@ -95,6 +95,15 @@ color: white;
 .App-link {
   color: #61dafb;
 }
+img{
+  width:50px;
+}
+.links{
+  margin-left: 45%;
+  position: absolute;
+  bottom: 0;
+  vertical-align: bottom;
+}
 
 @keyframes App-logo-spin {
   from {
