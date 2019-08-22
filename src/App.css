@@ -30,12 +30,11 @@ padding-top: 15%;
 color: white;
 }
 .jobs{
-  height:100vh;
   background-image: url('./assets/moosilauke.jpg');
   background-size:cover;
-  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: fit-content;
 }
 .job{
   display: block;
@@ -46,19 +45,17 @@ color: white;
   margin-left: 15%;
 }
 .personal-projects{
-  height:100vh;
+  height: 100vh;
   background-image: url('./assets/alaska.jpg');
   background-size:cover;
-  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
 }
 .education{
-  height:100vh;
+
   background-image: url('./assets/franc.jpg');
   background-size:cover;
-  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -66,6 +63,7 @@ color: white;
   text-align: left;
   background-color: rgb(244, 244, 244, .7);
   width: 40%;
+  min-width: 400px;
   margin:1%;
   display: inline-block;
   padding: 1%;

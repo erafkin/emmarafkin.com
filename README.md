@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Could have been done in plain HTML/CSS, but creating this in react allows for further expansion of this site in the future.
 
+deployed at `emmarafkin.me`
+
 ## Available Scripts
 
 In the project directory, you can run:
