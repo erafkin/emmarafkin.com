@@ -14,10 +14,10 @@ class Jobs extends Component {
                 Develop full stack websites for start ups and researchers.<br/> </p>
                  <b>Recent projects include:</b> 
                 <p><b><a href = "http://bioentrepreneurresources.com/" target = "_blank" rel = "noopener noreferrer">Bioentrepreneur Accelerator Hub</a></b>: 
-              This Accelerator Hub is a NIH-funded collaboration between top biomedical institutions across the United States that provides resources for independent biomedical entrepreneurs. Frontend is build in React.js, backend in Node.js/Express.js, and NoSQL (mongoDB) database.
+              This Accelerator Hub is a NIH-funded collaboration between top biomedical institutions across the United States that provides resources for independent biomedical entrepreneurs. Frontend is built in React.js, backend in Node.js/Express.js, and NoSQL (mongoDB) database.
                 </p>
                 <p><b><a href = "http://dalidocplanner.surge.sh/" target = "_blank" rel = "noopener noreferrer">DOC Planner</a></b>: 
-              Day trip planning website for the Dartmouth Outing Club. Frontend is build in React.js, backend in Node.js/Express.js, and NoSQL (mongoDB) database.
+              Day trip planning website for the Dartmouth Outing Club. Frontend is built in React.js, backend in Node.js/Express.js, and NoSQL (mongoDB) database.
                 </p>
             </div>
             <div className = "job">
