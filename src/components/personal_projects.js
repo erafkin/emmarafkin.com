@@ -13,7 +13,7 @@ class Personal_Projects extends Component {
         <h1> Personal Projects</h1>
         <div className = "job">
             <b><a href = "https://github.com/erafkin/PoetryTexts" target = "_blank" rel = "noopener noreferrer">Poetry Texts</a></b>
-            <p>This is a quick backend project that pings a database to populate a text with a random poem that is then sent to a certian number once a day</p>
+            <p>This is a quick backend project that pings a database to populate a text with a random poem that is then sent to certain phone numbers once a day</p>
            
         </div>
         <div className = "job">
