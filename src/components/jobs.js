@@ -29,7 +29,7 @@ class Jobs extends Component {
               <p>Answered computing questions for the students and faculty at Thayer School of Engineering. Worked with clients to solve hardware difficulties. Implemented an organizational system across the computing services at the school.</p>
             </div>
             <div className = "job">
-              <b><a href = "http://campnicolet.com/" target = "_blank" rel = "noopener noreferrer">Camp Nicolet</a>-- Couselor</b>
+              <b><a href = "http://campnicolet.com/" target = "_blank" rel = "noopener noreferrer">Camp Nicolet</a>-- Counselor</b>
               <p>Responsible for a cabin of 8 13-year-old girls for the 8-week season. Planned, supervised, and executed daily activities, meals, and special events. Selected to lead a week-long advanced water ski skills camp. Lead week long canoeing and hiking trips in the back country. Certified in CPR, life guarding, and ski instruction.</p>
             </div>
             
