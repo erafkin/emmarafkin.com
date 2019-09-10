@@ -15,6 +15,7 @@ class About extends Component {
           I grew up going to school on UChicago's campus, so I was lucky in that I had access to a lot of CS courses throughout high school. <br/>
           I was a competitive rock climber throughout most of my childhood and was a youth climbing coach for 5 years. <br/>
           I have also been a camp counselor for the past 3 years, so I love working with children and being in the outdoors (these background pictures are from some of my favorite hikes)! <br/>
+          I am currently studying abroad at Trinity College Dublin but am looking for internship opportunities for this winter term and summer 2020.
           </p>
           <h2> Current Extracurricular Activities</h2>
           <div>
