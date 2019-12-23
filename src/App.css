@@ -34,7 +34,7 @@ color: white;
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: fit-content;
+  height: 100vh;
 }
 .job{
   display: block;
