@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import github from '../assets/github.png';
-import email from '../assets/email.png';
-import linkedIn from '../assets/linkedin.png';
-
+import Header from './header';
 class Personal_Projects extends Component {
     constructor(props) {
       super(props);
     } 
     render(){
         return(
-            <div className = "personal-projects">
+      <div className = "block">
+                  <Header/>
+
         <h1> Personal Projects</h1>
         <div className = "job">
             <b><a href = "https://github.com/erafkin/PoetryTexts" target = "_blank" rel = "noopener noreferrer">Poetry Texts</a></b>
@@ -25,11 +24,7 @@ class Personal_Projects extends Component {
             <p>A simple HTML/CSS/Javascript website that helps generate secret santa assignments amongst inputted names.</p>
         </div>
 
-        <div className = "links">
-       <a href = "https://github.com/erafkin/" target = "_blank" rel = "noopener noreferrer"><img src = {github}/> </a>
-         <a href = "https://www.linkedin.com/in/emma-rafkin-2966406b/" target = "_blank" rel = "noopener noreferrer"><img src = {linkedIn}/> </a> 
-           <a href = "mailto:emma.p.rafkin.21@dartmouth.edu"><img src = {email}/> </a>
-      </div>
+       
       </div>
         );
 };

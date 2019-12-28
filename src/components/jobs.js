@@ -6,7 +6,7 @@ class Jobs extends Component {
     } 
     render(){
         return(
-            <div className = "jobs">
+            <div className = "block">
             <h1> Work</h1>          
             <div className = "job">
               <b><a href = "http://dali.dartmouth.edu/" target = "_blank" rel = "noopener noreferrer">Dali Lab </a>-- Software Engineer</b>

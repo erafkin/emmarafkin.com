@@ -1,15 +1,15 @@
 .App {
-  text-align: center;
-  background-image: url('./assets/me.jpg');
-  background-size:cover;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-bottom:60px;
+
+  background-color: #0E0035;
+  color: #DCFAF3;
+  /* scroll-snap-type: y, mandatory; */
 
 }
 h1{
-  margin: 0 auto;
+  margin-left: 5%;
+  color: #DCFAF3;
+  text-align: left;
+
 }
 a{
   color: black;
@@ -19,6 +19,8 @@ a:visited{
 }
 .name{
   font-size: 48pt;
+  text-align: center;
+  /*font-family: */
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -27,15 +29,10 @@ a:visited{
 }
 .title{
 padding-top: 15%;
-color: white;
+color: #DCFAF3;
+margin: 0 auto;
 }
-.jobs{
-  background-image: url('./assets/moosilauke.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-}
+
 .job{
   display: block;
   background-color: rgb(244, 244, 244, .7);
@@ -44,31 +41,34 @@ color: white;
   width:70%;
   margin-left: 15%;
 }
-.personal-projects{
-  height: 100vh;
-  background-image: url('./assets/alaska.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
-}
-.education{
-
-  background-image: url('./assets/franc.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 .school{
   text-align: left;
-  background-color: rgb(244, 244, 244, .7);
   width: 40%;
   min-width: 400px;
   margin:1%;
   display: inline-block;
   padding: 1%;
   top:0;
-  vertical-align: middle;
+  vertical-align: top;
+
+}
+
+.list{
+  border-style: solid;
+  border-color: #DCFAF3;
+  height: 70vh;
+  line-height: 2em;
+  padding-top: 3%;
+}
+.block{
+  height: 100vh;
+  /* scroll-snap-align: start; */
+  text-align: center;
+
+}
+#qual{
+padding-top: 10%;
 }
 
 .App-header {
@@ -81,6 +81,12 @@ color: white;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
 .location-tag{
 position: fixed;
 bottom: 0;
@@ -89,6 +95,7 @@ color: white;
 }
 .landing-page{
  height: 100vh;
+ text-align: center;
 }
 .App-link {
   color: #61dafb;
@@ -97,17 +104,49 @@ img{
   width:50px;
 }
 .links{
-  margin-left: 45%;
+  width:100%;
   position: absolute;
-  bottom: 0;
-  vertical-align: bottom;
+  text-align: right;
+  padding-top: 2%;
+  margin-right:5%;
+  bottom: top;
+  vertical-align: top;
+  z-index: 2;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scroll{
+  scroll-snap-align: start;
+  top:0;
+}
+span{
+  color: #8eead1;
+}
+.about{
+  top:0;
+  vertical-align: middle;
+  width:40%;
+  text-align: left;
+  line-height: 2em;
+  padding-top: 3%;
+  display: inline-block;
+  align-content: left;
+  margin-right: 10%;
+
+}
+.personalPic{
+  border-style: solid;
+  border-color: none;
+  border-radius: 100%;
+  width: 15%;
+  display: inline-block;
+  top:0;
+  vertical-align: middle;
+ 
+}
+.aboutPage{
+  /* text-align: left; */
+ margin-top: 15%;
+ /* margin-left: 3%; */
+  height:60%;
 }
