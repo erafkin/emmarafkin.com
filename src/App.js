@@ -6,6 +6,7 @@ import Personal_Projects from './components/personal_projects';
 import Header from './components/header';
 import Landing from './components/landing';
 import Qualifications from './components/qualifications';
+import Driven from './components/driven';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Qualifications/>
       <Jobs/>
+      <Driven/>
       <Personal_Projects/>
       
     </div>
