@@ -9,7 +9,8 @@ class Driven extends Component {
             <h1>Featured Projects</h1>
             <div className = "project">
                 <h2>Bioentrepreneur Accelerator Hub</h2>
-                <div className = "projectDescription">
+                <div className = "projectDesc">
+                    <div className = "projectBlurb">
                     This accelerator hub is a NIH-funded collaboration between top
                     biomedical institutions across the United States that provides 
                     resources for biomedical entreprenuers. <br/>
@@ -20,6 +21,7 @@ class Driven extends Component {
                     <li>Node/Express</li>
                     <li>mongoDB (NoSQL)</li>
                 </ul>
+                </div>
             </div>
         </div>);
         }else{ 
@@ -29,8 +31,8 @@ class Driven extends Component {
                 <div className = "project">
                     <h2>Bioentrepreneur Accelerator Hub</h2>
                     <img src = {driven} className = "projectPic"/>
-
-                    <div className = "projectDescription">
+                    <div className = "projectDesc">
+                    <div className = "projectBlurb">
                         This accelerator hub is a NIH-funded collaboration between top
                         biomedical institutions across the United States that provides 
                         resources for biomedical entreprenuers. <br/>
@@ -41,6 +43,7 @@ class Driven extends Component {
                         <li>Node/Express</li>
                         <li>mongoDB (NoSQL)</li>
                     </ul>
+                    </div>
                 </div>
             </div>
            

@@ -141,18 +141,24 @@ span{
   width:70%;
   margin:5%;
 }
-.projectDescription{
-  position:absolute;
-  background-color: #382C5A;
-  width:40%;
+.projectDesc{
   margin-top:10%;
-  padding:2%;
+  
   text-align: left;
+  position:absolute;
+
+}
+.projectBlurb{
+  width:40%;
+  padding:2%;
+  background-color: #382C5A;
   z-index: 10;
 }
 .projectList{
   text-align: left;
   line-height: 2em;
+  background-color: #0E0035;
+  width:20%;
 }
 .projectPic{
   width: 50%;

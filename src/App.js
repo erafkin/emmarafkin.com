@@ -7,6 +7,8 @@ import Header from './components/header';
 import Landing from './components/landing';
 import Qualifications from './components/qualifications';
 import Driven from './components/driven';
+import DOC from './components/doc';
+import LC from './components/lc19x';
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
       <Qualifications/>
       <Jobs/>
       <Driven/>
-      <Personal_Projects/>
+      <DOC/>
+      <LC/>
+      {/* <Personal_Projects/> */}
       
     </div>
   );
