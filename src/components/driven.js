@@ -8,7 +8,7 @@ class Driven extends Component {
             <div className = "block">
             <h1>Featured Projects</h1>
             <div className = "project">
-                <h2>Bioentrepreneur Accelerator Hub</h2>
+                <h2 style = {{color: "#8eead1", textAlign: "left"}}>Bioentrepreneur Accelerator Hub</h2>
                 <div className = "projectDesc">
                     <div className = "projectBlurb">
                     This accelerator hub is a NIH-funded collaboration between top
@@ -29,7 +29,7 @@ class Driven extends Component {
                 <div className = "block">
                 <h1>Featured Projects</h1>
                 <div className = "project">
-                    <h2>Bioentrepreneur Accelerator Hub</h2>
+                    <h2 style = {{color: "#8eead1", textAlign: "left"}}>Bioentrepreneur Accelerator Hub</h2>
                     <img src = {driven} className = "projectPic"/>
                     <div className = "projectDesc">
                     <div className = "projectBlurb">

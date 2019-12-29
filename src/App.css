@@ -33,7 +33,7 @@ margin: 0 auto;
   text-align: left;
   border-bottom-style: solid;
   border-width: thin;
-  border-bottom-color:#DCFAF3;
+  border-bottom-color:#8eead1;
   width: 60%;
   margin-left: 20%;
   padding-bottom: 2%;
@@ -59,7 +59,7 @@ h3{
 
 .list{
   border-style: solid;
-  border-color: #DCFAF3;
+  border-color:  #8eead1;
   height: 70vh;
   line-height: 2em;
   padding-top: 3%;
@@ -140,6 +140,8 @@ span{
 .project{
   width:70%;
   margin:5%;
+  /* border-top-style: solid;
+  border-top-color: #8eead1; */
 }
 .projectDesc{
   margin-top:10%;

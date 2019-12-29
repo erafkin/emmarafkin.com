@@ -7,7 +7,7 @@ class LC extends Component {
             return( 
             <div className = "block">
             <div className = "project">
-            <h2>Last Chances 19X</h2>
+            <h2 style = {{color: "#8eead1", textAlign: "left"}}>Last Chances 19X</h2>
             <div className = "projectDesc">
                     <div className = "projectBlurb">
                     A website for Dartmouth students to find love before the summer ends. Dartmouth students can log in with their student credentials to crush on other students. If the crushes are mutual, they are matched. If the crush is one-sided, it remains anonymous. 97% of students taking classes signed up. <br/>
@@ -27,7 +27,7 @@ class LC extends Component {
             return(
                 <div className = "block">
                 <div className = "project">
-                    <h2>Last Chances 19X</h2>
+                    <h2 style = {{color: "#8eead1", textAlign: "left"}}>Last Chances 19X</h2>
                     <img src = {lc19x} className = "projectPic"/>
                 <div className = "projectDesc">
                     <div className = "projectBlurb">

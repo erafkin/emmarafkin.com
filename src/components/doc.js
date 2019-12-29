@@ -7,7 +7,7 @@ class DOC extends Component {
             return( 
             <div className = "block">
             <div className = "project">
-            <h2>DOC Trips Planner</h2>
+            <h2 style = {{color: "#8eead1", textAlign: "left"}}>DOC Trips Planner</h2>
 
                    <div className = "projectDesc">
                     <div className = "projectBlurb">
@@ -28,7 +28,7 @@ class DOC extends Component {
             return(
             <div className = "block">
                 <div className = "project">
-                    <h2>DOC Trips Planner</h2>
+                    <h2 style = {{color: "#8eead1", textAlign: "left"}}>DOC Trips Planner</h2>
                     <img src = {doc} className = "projectPic"/>
                     <div className = "projectDesc">
                         <div className = "projectBlurb">
