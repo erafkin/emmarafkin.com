@@ -11,12 +11,12 @@ class Jobs extends Component {
             <div className = "job">
               <h2> Software Engineer Intern @ <span>Cambly</span></h2>
               <h3> January 2020 - Present</h3>
-              <p> The Cambly app gives English learners instant 1-on-1 access to friendly native speakers over video chat. As a software engineer, I...<br/> </p>
-                <ul className = "jobList">
+              <p> The Cambly app gives English learners instant 1-on-1 access to friendly native speakers over video chat. There are web and mobile platforms.<br/> </p>
+                {/* <ul className = "jobList">
                     <li> Develop full stack websites for startups and researchers</li>
                     <li>Collaborate blah blah blah</li>
                     <li>variety of tools...</li>
-                </ul>
+                </ul> */}
                 </div>       
             <div className = "job">
               <h2> Software Engineer @ <span>DALI Lab</span></h2>
@@ -24,8 +24,8 @@ class Jobs extends Component {
               <p>DALI is a fast-paced, student run experiential learning lab at Dartmouth. As a software developer, I...<br/> </p>
                 <ul className = "jobList">
                     <li> Develop full stack websites for startups and researchers</li>
-                    <li>Collaborate blah blah blah</li>
-                    <li>variety of tools...</li>
+                    <li>Collaborate with designers and partners on a tri-weekly basis</li>
+                    <li>Use a wide range of tech stacks</li>
                 </ul>
                 {/* <p><b><a href = "http://bioentrepreneurresources.com/" target = "_blank" rel = "noopener noreferrer">Bioentrepreneur Accelerator Hub</a></b>: 
                   This Accelerator Hub is a NIH-funded collaboration between top biomedical institutions across the United States that provides resources for independent biomedical entrepreneurs. Frontend is built in React.js, backend in Node.js/Express.js, and NoSQL (mongoDB) database.
