@@ -4,7 +4,6 @@ class Qualifications extends Component {
     render(){
         return(
             <div>
-            <Header/>
             <div className = "block" id = "qual">
             <h1>Qualifications</h1>
             <div className = "school" >

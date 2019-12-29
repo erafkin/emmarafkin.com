@@ -9,6 +9,8 @@ import Qualifications from './components/qualifications';
 import Driven from './components/driven';
 import DOC from './components/doc';
 import LC from './components/lc19x';
+import Touch from './components/touch';
+
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
       <Driven/>
       <DOC/>
       <LC/>
+      <Touch/>
       {/* <Personal_Projects/> */}
       
     </div>
