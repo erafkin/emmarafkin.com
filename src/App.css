@@ -175,3 +175,17 @@ span{
   margin-left: 30%;
   font-size: 20pt;
 }
+.otherProject{
+  background-color: #382C5A;
+  display: inline-block;
+  width:25%;
+  margin:5%;
+  height:250px;
+  padding: 1%;
+  min-width: 200px;
+  top:0;
+  vertical-align: top;
+}
+.otherProject p{
+  text-align: left;
+}

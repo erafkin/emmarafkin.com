@@ -24,8 +24,8 @@ function App() {
       <Driven/>
       <DOC/>
       <LC/>
+      <Personal_Projects/> 
       <Touch/>
-      {/* <Personal_Projects/> */}
       
     </div>
   );
