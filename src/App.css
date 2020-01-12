@@ -2,7 +2,7 @@
 
   background-color: #0E0035;
   color: #DCFAF3;
-  /* scroll-snap-type: y, mandatory; */
+  scroll-snap-type: mandatory;
 
 }
 h1{
@@ -48,7 +48,7 @@ h3{
 .school{
   text-align: left;
   width: 40%;
-  min-width: 400px;
+  min-width: 300px;
   margin:1%;
   display: inline-block;
   padding: 1%;
@@ -65,6 +65,8 @@ h3{
   padding-top: 3%;
 }
 .block{
+  top:0;
+  scroll-snap-align: start;
   min-height: 100vh;
   /* scroll-snap-align: start; */
   text-align: center;
@@ -114,7 +116,7 @@ span{
   vertical-align: middle;
   width:40%;
   text-align: left;
-  line-height: 2em;
+  line-height: 1.5em;
   padding-top: 3%;
   display: inline-block;
   align-content: left;

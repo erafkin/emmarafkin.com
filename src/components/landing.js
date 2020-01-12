@@ -11,20 +11,20 @@ class Landing extends Component{
   
                   "particles": {
                   "number": {
-                  "value": 100,
+                  "value": 150,
                   "density": {
                   "enable": true,
                   "value_area": 1000
                 }
                 },
                   "color": {
-                  "value": "#DCFAF3"
+                  "value": "#8eead1"
                 },
                   "shape": {
                   "type": "circle",
                   "stroke": {
                   "width": 0,
-                  "color": "#DCFAF3"
+                  "color": "#8eead1"
                 },
                   "polygon": {
                   "nb_sides": 5
@@ -58,7 +58,7 @@ class Landing extends Component{
                   "line_linked": {
                   "enable": true,
                   "distance": 150,
-                  "color": "#DCFAF3",
+                  "color": "#8eead1",
                   "opacity": 0.4,
                   "width": 1
                 },

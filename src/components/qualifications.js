@@ -7,7 +7,7 @@ class Qualifications extends Component {
             <div className = "block" id = "qual">
             <h1>Qualifications</h1>
             <div className = "school" >
-            <h2>Stack</h2>
+            <h2 style = {{color: "#8eead1"}}>Stack</h2>
 
                 <ul className = "list">
                     <li>Java</li>
@@ -25,12 +25,12 @@ class Qualifications extends Component {
 
             </div>
             <div className = "school">
-            <h2> Coursework</h2>
+            <h2 style = {{color: "#8eead1"}}> Coursework</h2>
                 <ul className = "list">
                     <li> CS56/ENGS31-- Digital Electronics</li>
      
                     <li> CS50 -- Software Design and Implementation</li>
-                    <li> CS72/LING48 -- Accellerated Computational Linguistics</li>
+                    <li> CS72/LING48 -- Accelerated Computational Linguistics</li>
                     <li> LING21 -- Phonology</li>
      
                     <li> CS31 -- Algorithms</li>
