@@ -12,7 +12,7 @@ class DOC extends Component {
                    <div className = "projectDesc">
                     <div className = "projectBlurb">
                         Multi-user platform for organizing outing club day trips. Included Dartmouth Authentication. <br/>
-                        <a href = "http://dartmouthoutingclub.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} /></a>
+                        <a href = "http://dartmouthoutingclub.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
                     </div>
                 <ul className = "projectList">
                     <li>React.js</li>
@@ -29,11 +29,11 @@ class DOC extends Component {
             <div className = "block">
                 <div className = "project">
                     <h2 style = {{color: "#8eead1", textAlign: "left"}}>DOC Trips Planner</h2>
-                    <img src = {doc} className = "projectPic"/>
+                    <img src = {doc} className = "projectPic" alt = "doc picture"/>
                     <div className = "projectDesc">
                         <div className = "projectBlurb">
                             Multi-user platform for organizing outing club day trips. Trips planning involves many moving pieces including budgeting, vehical release, and calendar functions. This site included Dartmouth Authentication. <br/>
-                            <a href = "http://dartmouthoutingclub.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} /></a>
+                            <a href = "http://dartmouthoutingclub.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}}  alt = "open icon"/></a>
                         </div>
                         <ul className = "projectList">
                             <li>React.js</li>

@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 
 class Jobs extends Component {
-    constructor(props) {
-      super(props);
-    } 
+
     render(){
         return(
             <div className = "block">

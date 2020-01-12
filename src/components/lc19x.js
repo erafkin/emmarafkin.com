@@ -11,7 +11,7 @@ class LC extends Component {
             <div className = "projectDesc">
                     <div className = "projectBlurb">
                     A website for Dartmouth students to find love before the summer ends. Dartmouth students can log in with their student credentials to crush on other students. If the crushes are mutual, they are matched. If the crush is one-sided, it remains anonymous. 97% of students taking classes signed up. <br/>
-                        <a href = "https://github.com/erafkin/code_ex19x" target = "_blank"  rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} /></a>
+                        <a href = "https://github.com/erafkin/code_ex19x" target = "_blank"  rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github icon" /></a>
                     </div>
                 <ul className = "projectList">
                     <li>Node/Express</li>
@@ -28,11 +28,11 @@ class LC extends Component {
                 <div className = "block">
                 <div className = "project">
                     <h2 style = {{color: "#8eead1", textAlign: "left"}}>Last Chances 19X</h2>
-                    <img src = {lc19x} className = "projectPic"/>
+                    <img src = {lc19x} className = "projectPic" alt = "last chances picture"/>
                 <div className = "projectDesc">
                     <div className = "projectBlurb">
                     A website for Dartmouth students to find love before the summer ends. Dartmouth students can log in with their student credentials to crush on other students. If the crushes are mutual, they are matched. If the crush is one-sided, it remains anonymous. 97% of students taking classes signed up. <br/>
-                     <a href = "https://github.com/erafkin/code_ex19x" target = "_blank"  rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} /></a>
+                     <a href = "https://github.com/erafkin/code_ex19x" target = "_blank"  rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github icon"/></a>
                      </div>
 
                 <ul className = "projectList">

@@ -14,7 +14,7 @@ class Driven extends Component {
                     This accelerator hub is a NIH-funded collaboration between top
                     biomedical institutions across the United States that provides 
                     resources for biomedical entreprenuers. <br/>
-                    <a href = "http://bioentrepreneurresources.com/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} /></a>
+                    <a href = "http://bioentrepreneurresources.com/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
                 </div>
                 <ul className = "projectList">
                     <li>React.js</li>
@@ -30,13 +30,13 @@ class Driven extends Component {
                 <h1>Featured Projects</h1>
                 <div className = "project">
                     <h2 style = {{color: "#8eead1", textAlign: "left"}}>Bioentrepreneur Accelerator Hub</h2>
-                    <img src = {driven} className = "projectPic"/>
+                    <img src = {driven} className = "projectPic" alt = "driven picture"/>
                     <div className = "projectDesc">
                     <div className = "projectBlurb">
                         This accelerator hub is a NIH-funded collaboration between top
                         biomedical institutions across the United States that provides 
                         resources for biomedical entreprenuers. <br/>
-                        <a href = "http://bioentrepreneurresources.com/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} /></a>
+                        <a href = "http://bioentrepreneurresources.com/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
                     </div>
                     <ul className = "projectList">
                         <li>React.js</li>

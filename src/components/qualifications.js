@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from './header';
 class Qualifications extends Component {
     render(){
         return(
