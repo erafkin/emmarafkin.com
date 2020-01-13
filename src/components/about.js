@@ -8,7 +8,7 @@ class About extends Component {
         return(
           <div>
             <div className = "block">
-              <h1 style= {{marginLeft:"20%"}}>About Me</h1>
+              <h1>About Me</h1>
               <div className = "aboutPage">
               <div className = "about">
                 <ul>

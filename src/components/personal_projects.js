@@ -27,6 +27,7 @@ class Personal_Projects extends Component {
         <h2 style = {{color: " #8eead1"}}> Minimum Edit Distance</h2>
             <p>A python project to calculate the minimum edit distance between words, effectively creating a spell check</p> <br/>
             <a href = "https://github.com/erafkin/min_edit_distance" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}}/></a>
+
         </div>
       </div>
         );
