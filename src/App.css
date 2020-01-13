@@ -26,7 +26,7 @@ color:#8eead1;
 }
 
 .title{
-padding-top: 15%;
+padding-top: 10%;
 color: #DCFAF3;
 margin: 0 auto;
 width: 50%;
@@ -38,7 +38,7 @@ width: 50%;
   border-width: thin;
   border-bottom-color:#8eead1;
   width: 60%;
-  margin-left: 20%;
+  margin-left: 5%;
   padding-bottom: 2%;
 }
 .jobList{
@@ -50,7 +50,7 @@ h3{
 }
 .school{
   text-align: left;
-  width: 40%;
+  width: 43%;
   min-width: 300px;
   margin:1%;
   display: inline-block;
@@ -63,9 +63,9 @@ h3{
 .list{
   border-style: solid;
   border-color:  #8eead1;
-  height: 70vh;
   line-height: 2em;
   padding-top: 3%;
+  min-height: 70vh;
 }
 .block{
   top:0;
@@ -109,30 +109,27 @@ span{
   color: #8eead1;
 }
 .about{
-  top:0;
-  vertical-align: middle;
   width:40%;
   text-align: left;
   line-height: 1.5em;
-  padding-top: 3%;
   display: inline-block;
   align-content: left;
   margin-right: 10%;
+  font-size: 2.5vh;
 
 }
 .personalPic{
   border-style: solid;
   border-color: none;
   border-radius: 100%;
-  width: 15%;
+  min-width: 27vh;
   display: inline-block;
   top:0;
-  vertical-align: middle;
- 
+  vertical-align: top;
 }
 .aboutPage{
-  margin-top: 15%;
-  height:60%;
+  margin-top: 10%;
+  height:50%;
 }
 .project{
   width:70%;

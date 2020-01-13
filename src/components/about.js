@@ -8,14 +8,16 @@ class About extends Component {
         return(
           <div>
             <div className = "block">
-              <h1>About Me</h1>
+              <h1 style= {{marginLeft:"20%"}}>About Me</h1>
               <div className = "aboutPage">
               <div className = "about">
                 <ul>
                   <li>I'm a <span> Dartmouth '21  </span>from Chicago, IL</li>
+                  <li>While I am eager to explore all fields of computer science, I am particularly interested in <span>NLP and computational linguistics</span></li>
                   <li>I was a <span>competitive rock climber</span> throughout most of my childhood and a youth climbing coach for 5 years</li>
                   <li>I have been a camp counselor for 3 years, so <span>I love working with children and being in the outdoors </span></li>
-                  <li>While I am eager to explore all fields of computer science, I am particularly interested in <span>NLP and computational linguistics</span></li>
+                  <li>Outside of class, I participate in <span>Growing Change</span> teaching elementary school children about science and sustainability, play <span>club field hockey</span>, and am the sisterhood chair for my sorority, <span>Sigma Delta</span></li>
+
                 </ul>
               </div>
               <img src = {me} className = "personalPic"/>
