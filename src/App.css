@@ -2,7 +2,7 @@
 
   background-color: #0E0035;
   color: #DCFAF3;
-  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
   font-family: Roboto, sans-serif;
 }
 h1{
@@ -68,7 +68,6 @@ h3{
   top:0;
   scroll-snap-align: start;
   min-height: 100vh;
-  /* scroll-snap-align: start; */
   text-align: center;
 
 }
@@ -103,11 +102,6 @@ img{
   z-index: 2;
 
 }
-
-.scroll{
-  scroll-snap-align: start;
-  top:0;
-}
 span{
   color: #8eead1;
 }
@@ -134,16 +128,12 @@ span{
  
 }
 .aboutPage{
-  /* text-align: left; */
- margin-top: 15%;
- /* margin-left: 3%; */
+  margin-top: 15%;
   height:60%;
 }
 .project{
   width:70%;
   margin:5%;
-  /* border-top-style: solid;
-  border-top-color: #8eead1; */
 }
 .projectDesc{
   margin-top:10%;
@@ -190,4 +180,7 @@ span{
 }
 .otherProject p{
   text-align: left;
+}
+img{
+  margin: 1%;
 }
