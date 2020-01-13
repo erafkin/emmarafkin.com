@@ -22,7 +22,7 @@ class Jobs extends Component {
               <p>DALI is a fast-paced, student run experiential learning lab at Dartmouth. As a software developer, I...<br/> </p>
                 <ul className = "jobList">
                     <li> Develop full stack websites for startups and researchers</li>
-                    <li>Collaborate with designers and partners on a tri-weekly basis</li>
+                    <li>Collaborate with designers and partners three times a week</li>
                     <li>Use a wide range of tech stacks</li>
                 </ul>
             </div>
@@ -32,7 +32,7 @@ class Jobs extends Component {
               <p> I was a teaching assistant for the Object Oriented Programming class at Dartmouth. As a teaching assistant, I...<br/> </p>
                 <ul className = "jobList">
                     <li>Held a weekly review session to go over that week's topics</li>
-                    <li>Held office hours so that I could answer any questions that may have come up during lectures or homework</li>
+                    <li>Held office hours three times a week to answer student questions</li>
                     <li>Graded tests and homeworks</li>
                 </ul>
                 </div>
