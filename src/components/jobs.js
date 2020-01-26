@@ -4,7 +4,7 @@ class Jobs extends Component {
 
     render(){
         return(
-            <div className = "block">
+            <div className = "block" id = "jobs">
             <h1> Work Experience</h1>   
             <div className = "job">
               <h2> Software Engineer Intern @ <span>Cambly</span></h2>
