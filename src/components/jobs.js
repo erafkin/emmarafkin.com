@@ -7,6 +7,16 @@ class Jobs extends Component {
             <div className = "block" id = "jobs">
             <h1> Work Experience</h1>   
             <div className = "job">
+              <h2> Software Engineer Intern @ <span>Alarm.com</span></h2>
+              <h3> June 2020 - August 2020</h3>
+              <p> This summer I will be interning at Alarm.com, a smart home application that integrates security and utility hardwear for homes and buisnesses<br/> </p>
+                {/* <ul className = "jobList">
+                    <li> Worked to upgrade the Android app to keep it up to date as Cambly expands</li>
+                    <li>Explored mobile development</li>
+                    <li>Worked in both Java and Kotlin</li>
+                </ul> */}
+                </div>       
+            <div className = "job">
               <h2> Software Engineer Intern @ <span>Cambly</span></h2>
               <h3> January 2020 - Present</h3>
               <p> The Cambly app gives English learners instant 1-on-1 access to friendly native speakers over video chat. There are web and mobile platforms. As a software engineer intern I...<br/> </p>

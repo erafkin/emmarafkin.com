@@ -11,8 +11,7 @@ class Touch extends Component {
         return(
     <div className = "block">
         <div className = "touch">
-        <div> I am currently looking for internships for 
-            summer 2020 and would love to chat!
+        <div> I am looking for postgrad jobs starting June 2021 and would love to chat!
         </div>
         <br/>
         <div>
