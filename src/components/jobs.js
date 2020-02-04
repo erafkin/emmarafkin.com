@@ -21,9 +21,9 @@ class Jobs extends Component {
               <h3> January 2020 - Present</h3>
               <p> The Cambly app gives English learners instant 1-on-1 access to friendly native speakers over video chat. There are web and mobile platforms. As a software engineer intern I...<br/> </p>
                 <ul className = "jobList">
+                    <li> Implemented the new "courses" feature on the Android app--retrieving and manipulating data as well as implmenting UI designs</li>
                     <li> Worked to upgrade the Android app to keep it up to date as Cambly expands</li>
-                    <li>Explored mobile development</li>
-                    <li>Worked in both Java and Kotlin</li>
+                    <li>Worked in Kotlin and Java</li>
                 </ul>
                 </div>       
             <div className = "job">
@@ -33,7 +33,7 @@ class Jobs extends Component {
                 <ul className = "jobList">
                     <li> Develop full stack websites for startups and researchers</li>
                     <li>Collaborate with designers and partners three times a week</li>
-                    <li>Use a wide range of tech stacks</li>
+                    <li>Use a wide range of tech stacks including React, Node/Express, and Mongodb</li>
                 </ul>
             </div>
             <div className = "job">
