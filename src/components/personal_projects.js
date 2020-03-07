@@ -10,7 +10,7 @@ class Personal_Projects extends Component {
         <div className = "otherProject">
             <h2 style = {{color: " #8eead1"}}>Poetry Texts</h2>
             <p>This is a quick backend project that pings a database to populate a text with a random poem that is then sent to certain phone numbers once a day</p> <br/>
-            <a href = "https://github.com/erafkin/huffmanEncodingCompression" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}}/></a>    
+            <a href = "https://github.com/erafkin/PoetryTexts" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}}/></a>    
         </div>
         <div className = "otherProject">
         <h2 style = {{color: " #8eead1"}}>Huffman Compression</h2>
