@@ -9,6 +9,7 @@ class Qualifications extends Component {
             <h2 style = {{color: "#8eead1"}}>Stack</h2>
 
                 <ul className = "list">
+                    <li>Kotlin</li>
                     <li>Java</li>
                     <li>Python</li>
                     <li>C</li>
@@ -26,6 +27,8 @@ class Qualifications extends Component {
             <div className = "school">
             <h2 style = {{color: "#8eead1"}}> Coursework</h2>
                 <ul className = "list">
+                    <li> CS67 -- Human-Computer Interaction</li>
+                    <li>CS60 -- Networks</li>
                     <li> CS56/ENGS31 -- Digital Electronics</li>
      
                     <li> CS50 -- Software Design and Implementation</li>
