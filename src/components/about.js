@@ -6,7 +6,6 @@ class About extends Component {
 
     render(){
         return(
-          <div>
             <div className = "block">
               <h1>About Me</h1>
               <div className = "aboutPage">
@@ -24,7 +23,6 @@ class About extends Component {
               <img src = {me} className = "personalPic"/>
               </div>
               </div>
-          </div>
     
       );
 };
