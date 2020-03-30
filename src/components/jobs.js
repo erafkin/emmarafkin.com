@@ -18,7 +18,7 @@ class Jobs extends Component {
                 </div>       
             <div className = "job">
               <h2> Software Engineer Intern @ <span>Cambly</span></h2>
-              <h3> January 2020 - Present</h3>
+              <h3> January 2020 - March 2020</h3>
               <p> The Cambly app gives English learners instant 1-on-1 access to friendly native speakers over video chat. There are web and mobile platforms. As a software engineer intern I...<br/> </p>
                 <ul className = "jobList">
                     <li> Implemented the new "courses" feature on the Android app--retrieving and manipulating data as well as implmenting UI designs</li>
