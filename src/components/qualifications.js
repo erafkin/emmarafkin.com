@@ -27,8 +27,9 @@ class Qualifications extends Component {
             <div className = "school">
             <h2 style = {{color: "#8eead1"}}> Coursework</h2>
                 <ul className = "list">
+                    <li>CS89 -- Cognitive Computing with Watson</li>
                     <li> CS67 -- Human-Computer Interaction</li>
-                    <li> CS60 -- Networks</li>
+                    <li> CS61 -- Databases</li>
                     <li> LING17 -- Sociolinguistics</li>
                     <li> CS56/ENGS31 -- Digital Electronics</li>
      
