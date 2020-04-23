@@ -9,6 +9,7 @@ class Qualifications extends Component {
             <h2 style = {{color: "#8eead1"}}>Stack</h2>
 
                 <ul className = "list">
+                    <li>React Native</li>
                     <li>Kotlin</li>
                     <li>Java</li>
                     <li>Python</li>
