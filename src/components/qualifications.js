@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 class Qualifications extends Component {
     render(){
         return(
-            <div className = "block">
             <div className = "block" id = "qual">
             <h1>Qualifications</h1>
             <div className = "school" >
@@ -53,7 +52,6 @@ class Qualifications extends Component {
                 </ul>
                 
             </div>
-         </div>
          </div>
         );
     }
