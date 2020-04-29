@@ -9,15 +9,17 @@ class Qualifications extends Component {
 
                 <ul className = "list">
                     <li>React Native</li>
+                    <li>React</li>
                     <li>Kotlin</li>
                     <li>Java</li>
                     <li>Python</li>
                     <li>C</li>
-                    <li>React</li>
+                    <li>Node/Express</li>
+                    <li>MongoDb</li>
+                    <li>SQL</li>
                     <li>Javascript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Node/Express</li>
                     <li>Matlab</li>
                     <li>Git</li>
 
