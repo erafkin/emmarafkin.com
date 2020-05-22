@@ -20,7 +20,7 @@ class About extends Component {
                   <li>TEST</li>
                 </ul>
               </div>
-              <img src = {me} className = "personalPic"/>
+              <img src = {me} className = "personalPic" alt = "pic of me"/>
               </div>
               </div>
     
