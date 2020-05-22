@@ -118,6 +118,8 @@ span{
   border-color: none;
   border-radius: 100%;
   min-width: 45vh;
+  height:45vh;
+  object-fit: cover; 
   display: inline-block;
   top:0;
   margin-top: 5%;
