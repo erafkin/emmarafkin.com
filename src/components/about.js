@@ -17,7 +17,7 @@ class About extends Component {
                   <li>I was a <span>competitive rock climber</span> throughout most of my childhood and a youth climbing coach for 5 years</li>
                   <li>I have been a camp counselor for 3 years, so <span>I love working with children and being in the outdoors </span></li>
                   <li>Outside of class, I participate in <span>Growing Change</span> where I teach elementary school children about science and sustainability, play <span>club field hockey</span>, and am the sisterhood chair for my sorority, <span>Sigma Delta</span></li>
-
+                  <li>TEST</li>
                 </ul>
               </div>
               <img src = {me} className = "personalPic"/>
