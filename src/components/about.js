@@ -12,10 +12,11 @@ class About extends Component {
               <div className = "about">
                 <ul>
                   <li>I'm a <span> Dartmouth '21  </span>from Chicago, IL</li>
-                  <li>I am currently a software engineer intern at Cambly, a mobile and web english teaching app. Previously, I was creating full stack web apps for the DALI Lab. See more <a href = "#jobs">here</a></li>
+                  <li> I create full stack web apps and mobile apps for the DALI Lab. Previously I was a software engineer intern at Cambly, a mobile and web english teaching app. See more <a href = "#jobs">here</a></li>
                   <li>While I am eager to explore all fields of computer science, I am particularly interested in <span>NLP and computational linguistics</span></li>
                   <li>I was a <span>competitive rock climber</span> throughout most of my childhood and a youth climbing coach for 5 years</li>
                   <li>I have been a camp counselor for 3 years, so <span>I love working with children and being in the outdoors </span></li>
+                  <li>As well as being a developer at the <span>DALI Lab</span>, I am also a member of the Core team and am the <span>Women in Science Program</span> lead for DALI</li>
                   <li>Outside of class, I participate in <span>Growing Change</span> where I teach elementary school children about science and sustainability, play <span>club field hockey</span>, and am the sisterhood chair for my sorority, <span>Sigma Delta</span></li>
                 </ul>
               </div>
