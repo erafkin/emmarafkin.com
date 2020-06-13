@@ -21,8 +21,8 @@ function App() {
       <About/>
       <Qualifications/>
       <Jobs/>
-      <Rooted/>
       <Driven/>
+      <Rooted/>
       <DOC/>
       <PersonalProjects/> 
       <Touch/>
