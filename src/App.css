@@ -160,6 +160,18 @@ span{
   margin-top: 4%;
   margin-right: 40%;
 }
+.rootedShop{
+  width: 20%;
+  position: absolute;
+  margin-top: 4%;
+
+}
+.rootedInv{
+  width: 20%;
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 25%;
+}
 .touch{
   text-align:center;
   width:40%;
