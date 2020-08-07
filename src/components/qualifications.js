@@ -13,11 +13,13 @@ class Qualifications extends Component {
                     <li>Kotlin</li>
                     <li>Java</li>
                     <li>Python</li>
+                    <li>C#</li>
                     <li>C</li>
+                    <li>Javascript</li>
+                    <li>Ember.js</li>
                     <li>Node/Express</li>
                     <li>MongoDb</li>
                     <li>SQL</li>
-                    <li>Javascript</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Matlab</li>

@@ -9,12 +9,12 @@ class Jobs extends Component {
             <div className = "job">
               <h2> Software Engineer Intern @ <span>Alarm.com</span></h2>
               <h3> June 2020 - August 2020</h3>
-              <p> This summer I will be interning at Alarm.com, a smart home application that integrates security and utility hardwear for homes and buisnesses<br/> </p>
-                {/* <ul className = "jobList">
-                    <li> Worked to upgrade the Android app to keep it up to date as Cambly expands</li>
-                    <li>Explored mobile development</li>
-                    <li>Worked in both Java and Kotlin</li>
-                </ul> */}
+              <p> This summer I interned at Alarm.com, a smart home application that integrates security and utility hardwear for homes and buisnesses<br/> </p>
+                <ul className = "jobList">
+                    <li>Enhanced a previously existing report and created a new report to help property managers stay up to date on the battery levels of all of the devices across their many units</li>
+                    <li>Learned an entirely new code base and worked on creating thorough unit tests for every ticket</li>
+                    <li>Worked in both C# and Ember.js</li>
+                </ul>
                 </div>       
             <div className = "job">
               <h2> Software Engineer Intern @ <span>Cambly</span></h2>
