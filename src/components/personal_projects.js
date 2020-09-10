@@ -7,6 +7,11 @@ class PersonalProjects extends Component {
       <div className = "block">
         <h1> Other Projects</h1>
         <div className = "otherProject">
+            <h2 style = {{color: " #8eead1"}}> Chicago Ward Emailer </h2>
+            <p>This was a project that I threw together for the 2020 BLM movement to auto email Chicago Aldermen (local representatives) to demand a change in policing policy. </p> <br/>
+            <a href = "https://github.com/erafkin/ward-emailer" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo" /></a>    
+        </div>
+        <div className = "otherProject">
             <h2 style = {{color: " #8eead1"}}>Poetry Texts</h2>
             <p>This is a quick backend project that pings a database to populate a text with a random poem that is then sent to certain phone numbers once a day</p> <br/>
             <a href = "https://github.com/erafkin/PoetryTexts" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo" /></a>    
@@ -16,12 +21,6 @@ class PersonalProjects extends Component {
             <p>A Java project made for class that uses Huffman Encoding to compress text files.</p> <br/>
             <a href = "https://github.com/erafkin/huffmanEncodingCompression" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo"/></a>
        </div>
-        <div className = "otherProject">
-        <h2 style = {{color: " #8eead1"}}>Secret Santa</h2>
-            <p>A simple HTML/CSS/Javascript website that helps generate secret santa assignments amongst inputted names.</p> <br/>
-            <a href = "https://github.com/erafkin/secretSanta" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo"/></a>
-
-        </div>
         <div className = "otherProject">
         <h2 style = {{color: " #8eead1"}}> Minimum Edit Distance</h2>
             <p>A python project to calculate the minimum edit distance between words, effectively creating a spell check</p> <br/>

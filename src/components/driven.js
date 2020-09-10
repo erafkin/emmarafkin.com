@@ -27,10 +27,9 @@ class Driven extends Component {
         }else{ 
             return(
                 <div className = "block">
-                <h1>Featured Projects</h1>
                 <div className = "project">
                     <h2 style = {{color: "#8eead1", textAlign: "left"}}>Bioentrepreneur Accelerator Hub</h2>
-                    <img src = {driven} className = "projectPic" alt = "driven picture"/>
+                    <img src = {driven} className = "projectPic" alt = "driven resources page"/>
                     <div className = "projectDesc">
                     <div className = "projectBlurb">
                         This accelerator hub is a NIH-funded collaboration between top
