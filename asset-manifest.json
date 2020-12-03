@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.caa00397.chunk.css",
-    "main.js": "/static/js/main.bdc4d508.chunk.js",
-    "main.js.map": "/static/js/main.bdc4d508.chunk.js.map",
+    "main.js": "/static/js/main.245c7cd7.chunk.js",
+    "main.js.map": "/static/js/main.245c7cd7.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.2fdac378.js",
     "runtime~main.js.map": "/static/js/runtime~main.2fdac378.js.map",
     "static/js/2.b44e05ad.chunk.js": "/static/js/2.b44e05ad.chunk.js",
     "static/js/2.b44e05ad.chunk.js.map": "/static/js/2.b44e05ad.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.909f59c8ec08e43034e401101db80f5d.js": "/precache-manifest.909f59c8ec08e43034e401101db80f5d.js",
+    "precache-manifest.dc558bc8b11763a170cac2da2cb01f48.js": "/precache-manifest.dc558bc8b11763a170cac2da2cb01f48.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.caa00397.chunk.css.map": "/static/css/main.caa00397.chunk.css.map",
     "static/media/Rooted1.png": "/static/media/Rooted1.7831d05e.png",
     "static/media/Rooted2.png": "/static/media/Rooted2.453bf855.png",
-    "static/media/driven.png": "/static/media/driven.aa16c7a8.png",
     "static/media/me_boat.jpeg": "/static/media/me_boat.3c03496a.jpeg",
+    "static/media/myballot.png": "/static/media/myballot.920dec5f.png",
     "static/media/speech-surrogates.png": "/static/media/speech-surrogates.de266213.png"
   }
 }
