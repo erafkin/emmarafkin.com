@@ -6,11 +6,13 @@ import PersonalProjects from './components/personal_projects';
 import Header from './components/header';
 import Landing from './components/landing';
 import Qualifications from './components/qualifications';
-import Driven from './components/driven';
+// import Driven from './components/driven';
 // import DOC from './components/doc';
 import Touch from './components/touch';
 import Rooted from './components/rooted';
 import SpeechSurrogates from './components/speech_surrogates';
+import MyBallot from './components/myballot';
+
 
 
 function App() {
@@ -23,8 +25,8 @@ function App() {
       <Qualifications/>
       <Jobs/>
       <SpeechSurrogates/>
+      <MyBallot/>
       <Rooted/>
-      <Driven/>
       <PersonalProjects/> 
       <Touch/>
       
