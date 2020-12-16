@@ -11,7 +11,7 @@ class Flourish extends Component {
                 <h2 style = {{color: "#8eead1", textAlign: "left"}}>Flourish</h2>    
                 <div className = "projectDesc">
                         <div className = "projectBlurb">
-                        A mobile app that helps patients with chronic illness track and analyze their symptoms, triggers, and healthfactors. <br/>
+                        This DALI project is a mobile app that helps patients with chronic illness track and analyze their symptoms, triggers, treatments, and underlying health factors. This app was built from scratch and aims to help users with diagnosed and undiagnosed chronic illnesses understand the best way to manage and treat their symptoms. I was both the lead developer and mentor on this project. <br/>
                         </div>
                     <ul className = "projectList">
                         <li>React Native</li>
@@ -33,7 +33,7 @@ class Flourish extends Component {
     
                 <div className = "projectDesc">
                         <div className = "projectBlurb">
-                        This DALI project is a mobile app that helps patients with chronic illness track and analyze their symptoms, triggers, and healthfactors. This app was built from scratch and aims to help users with diagnosed and undiagnosed chronic illnesses understand the best way to manage and treat their symptoms. I was both the lead developer and mentor on this project. <br/>
+                        This DALI project is a mobile app that helps patients with chronic illness track and analyze their symptoms, triggers, treatments, and underlying health factors. This app was built from scratch and aims to help users with diagnosed and undiagnosed chronic illnesses understand the best way to manage and treat their symptoms. I was both the lead developer and mentor on this project. <br/>
                         </div>
                     <ul className = "projectList">
                         <li>React Native</li>
