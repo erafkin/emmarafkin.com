@@ -9,9 +9,10 @@ import Qualifications from './components/qualifications';
 // import Driven from './components/driven';
 // import DOC from './components/doc';
 import Touch from './components/touch';
-import Rooted from './components/rooted';
+// import Rooted from './components/rooted';
 import SpeechSurrogates from './components/speech_surrogates';
 import MyBallot from './components/myballot';
+import Flourish from './components/flourish'
 
 
 
@@ -25,8 +26,8 @@ function App() {
       <Qualifications/>
       <Jobs/>
       <SpeechSurrogates/>
+      <Flourish/>
       <MyBallot/>
-      <Rooted/>
       <PersonalProjects/> 
       <Touch/>
       

@@ -47,7 +47,7 @@ class SpeechSurrogates extends Component {
                     <ul className = "projectList">
                         <li>React.js</li>
                         <li>Node/Express</li>
-                        <li>mongoDB (NoSQL)</li>
+                        <li>MongoDB (NoSQL)</li>
                         <li>Amcharts</li>
                     </ul>
                     </div>
