@@ -33,21 +33,21 @@ class Qualifications extends Component {
                 <ul className = "list">
                     <li><a href = "#cs98">CS98 -- Senior Design and Implementation Challenge</a></li>
                     <li>CS89 -- Cognitive Computing with Watson</li>
+                    <li> CS70 -- Machine Learning</li>
                     <li> CS67 -- Human-Computer Interaction</li>
                     <li> CS61 -- Databases</li>
                     <li> CS56/ENGS31 -- Digital Electronics</li>
                     <li> CS50 -- Software Design and Implementation</li>
                     <li> CS31 -- Algorithms</li>
-                    <li> CS70 -- Machine Learning</li>
                     <li> CS30 -- Discrete Mathematics for Computer Science</li>
                     <li> CS16/PSYCH40 -- Computational Neuroscience</li>
                     <li> CS11 -- Foundations of Applied Computer Science (Linear Algebra)</li>
                     <li> CS10 -- Object Oriented Programming</li>
-                    <li> CS72/LING48 -- Accelerated Computational Linguistics</li>
                     <br/>
-                    <li> LING21 -- Phonology</li>
-                    <li>LING23 -- Semantics and Pragmatics</li>
+                    <li> CS72/LING48 -- Accelerated Computational Linguistics</li>
                     <li>LING50.01 -- Psycholinguistics</li>
+                    <li>LING23 -- Semantics and Pragmatics</li>
+                    <li> LING21 -- Phonology</li>
                     <li> LING17 -- Sociolinguistics</li>
                     <li> LING1 -- Introductory Linguistics</li>
                     <br/>
