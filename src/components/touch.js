@@ -11,14 +11,14 @@ class Touch extends Component {
         return(
     <div className = "block">
         <div className = "touch">
-        <div> I am looking for postgrad jobs starting June 2021 and would love to chat!
+        <div> I am always looking for new projects to work on, feel free to reach out!
         </div>
         <br/>
         <div>
                 <a href = "https://tinyurl.com/y6m9528k" target = "_blank" rel = "noopener noreferrer" ><img src = {doc} alt = "doc icon"/></a>
                 <a href = "https://github.com/erafkin/" target = "_blank" rel = "noopener noreferrer" ><img src = {github} alt = "github icon"/></a>
                 <a href = "https://www.linkedin.com/in/emma-rafkin-2966406b/" target = "_blank" rel = "noopener noreferrer" ><img src = {linkedIn} alt = "linkedIn icon"/></a> 
-                <a href = "mailto:emma.p.rafkin.21@dartmouth.edu"><img src = {email} alt = "email icon"/></a>
+                <a href = "mailto:emmarafkin@gmail.com"><img src = {email} alt = "email icon"/></a>
         </div>
 
    

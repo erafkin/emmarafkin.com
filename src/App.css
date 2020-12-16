@@ -102,6 +102,8 @@ img{
 }
 span{
   color: #8eead1;
+  text-decoration-color: #8eead1;
+  text-decoration: underline;
 }
 .about{
   width:40%;
@@ -203,4 +205,7 @@ a{
 }
 a:visited{
   color: white
+}
+.spanlink{
+  text-decoration: none;
 }
