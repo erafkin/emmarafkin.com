@@ -13,7 +13,7 @@ class PersonalProjects extends Component {
             </div>
             <div className = "otherProject">
                 <h2 style = {{color: " #8eead1"}}>Spotify Playlist Generator</h2>
-                <p>This was a fun personal project where I was playing around with the Spotify API. It allows you to generate playlists based off of genres that you listen to the most.</p> <br/>
+                <p>This was a fun personal project playing around with the Spotify API. It allows you to generate playlists based off of genres that you listen to the most.</p> <br/>
                 <a href = "https://github.com/erafkin/spotify-api-test" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo"/></a>
             </div>
             <div className = "otherProject">
