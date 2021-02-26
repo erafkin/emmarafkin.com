@@ -30,7 +30,7 @@ class Jobs extends Component {
             <div className = "job">
               <h2> Software Engineer Intern @ <a href = "https://www.alarm.com/" target = "_blank" rel = "noopener noreferrer" className = "spanlink"><span> Alarm.com</span></a></h2>
               <h3> June 2020 - August 2020</h3>
-              <p> This summer I interned at Alarm.com, a smart home application that integrates security and utility hardwear for homes and buisnesses<br/> </p>
+              <p> This summer I interned at Alarm.com, a smart home application that integrates security and utility hardwear for homes and buisnesses. As a software engineer intern, I...<br/> </p>
                 <ul className = "jobList">
                     <li>Enhanced a previously existing report and created a new report to help property managers stay up to date on the battery levels of all of the devices across their many units</li>
                     <li>Learned an entirely new code base and worked on creating thorough unit tests for every ticket</li>
