@@ -9,9 +9,8 @@ import Qualifications from './components/qualifications';
 import Touch from './components/touch';
 import FeaturedProjects from './components/featuredProjects';
 
-
-
-
+// App animation adapted from:
+// https://www.telerik.com/blogs/observing-visibility-in-react
 function App() {
 
   return (
