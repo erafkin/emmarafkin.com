@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import open from '../assets/open.png';
-import doc from '../assets/doc.png';
+import open from '../../assets/open.png';
+import doc from '../../assets/doc.png';
 class DOC extends Component {
     render(){
         if(window.innerWidth < 760 ){

@@ -1,10 +1,21 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import github from '../assets/github.png';
-class PersonalProjects extends Component {
-
-    render(){
+const PersonalProjects = (props) => {
+    const [isVisible, setVisible] = useState(true);
+  const domRef = useRef();
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    const domRefCurrent = domRef.current
+    observer.observe(domRefCurrent);
+    return () => observer.unobserve(domRefCurrent);
+  }, []);
         return(
-        <div className = "block">
+        <div
+        className={`block fade-in-section ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}
+        >
             <h1> Other Projects</h1>
             <div className = "otherProject">
                 <h2 style = {{color: " #8eead1"}}> Chicago Ward Emailer </h2>
@@ -29,6 +40,6 @@ class PersonalProjects extends Component {
         </div>
        
         );
-};
 
-}export default PersonalProjects;
+}
+export default PersonalProjects;

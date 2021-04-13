@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import github from '../assets/github.png';
-import lc19x from '../assets/lc19x.png';
+import github from '../../assets/github.png';
+import lc19x from '../../assets/lc19x.png';
 class LC extends Component {
     render(){
         if(window.innerWidth < 760 ){

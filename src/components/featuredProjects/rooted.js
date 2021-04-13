@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import shop from '../assets/Rooted1.png';
-import inventory from '../assets/Rooted2.png';
+import shop from '../../assets/Rooted1.png';
+import inventory from '../../assets/Rooted2.png';
 
 class Rooted extends Component {
     render(){

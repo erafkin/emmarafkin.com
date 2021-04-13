@@ -6,13 +6,9 @@ import PersonalProjects from './components/personal_projects';
 import Header from './components/header';
 import Landing from './components/landing';
 import Qualifications from './components/qualifications';
-// import Driven from './components/driven';
-// import DOC from './components/doc';
 import Touch from './components/touch';
-// import Rooted from './components/rooted';
-import SpeechSurrogates from './components/speech_surrogates';
-import MyBallot from './components/myballot';
-import Flourish from './components/flourish'
+import FeaturedProjects from './components/featuredProjects';
+
 
 
 
@@ -25,9 +21,7 @@ function App() {
       <About/>
       <Qualifications/>
       <Jobs/>
-      <SpeechSurrogates/>
-      <Flourish/>
-      <MyBallot/>
+      <FeaturedProjects/>
       <PersonalProjects/> 
       <Touch/>
       

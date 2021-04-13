@@ -1,15 +1,25 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import github from '../assets/github.png';
 import email from '../assets/email.png';
 import linkedIn from '../assets/linkedin.png';
 import doc from '../assets/document.png'
 
 
-class Touch extends Component {
+const Touch = (props) => {
+    const [isVisible, setVisible] = useState(true);
+    const domRef = useRef();
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+        });
+        const domRefCurrent = domRef.current
+        observer.observe(domRefCurrent);
+        return () => observer.unobserve(domRefCurrent);
+    }, []);
 
-    render(){
-        return(
-    <div className = "block">
+    return(
+    <div className={`block fade-in-section ${isVisible ? 'is-visible' : ''}`}
+    ref={domRef}>
         <div className = "touch">
         <div> I am always looking for new projects to work on, feel free to reach out!
         </div>
@@ -25,6 +35,6 @@ class Touch extends Component {
         </div>
        </div>
       );
-};
 
-}export default Touch;
+}
+export default Touch;

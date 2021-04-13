@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import open from '../assets/open.png';
-import driven from '../assets/driven.png';
+import open from '../../assets/open.png';
+import driven from '../../assets/driven.png';
 class Driven extends Component {
     render(){
         if(window.innerWidth < 760 ){

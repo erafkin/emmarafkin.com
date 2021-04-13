@@ -1,12 +1,24 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import me from '../assets/me_boat.jpeg';
 
 
-class About extends Component {
+const About = (props) => {
+  const [isVisible, setVisible] = useState(true);
+  const domRef = useRef();
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    const domRefCurrent = domRef.current
+    observer.observe(domRefCurrent);
+    return () => observer.unobserve(domRefCurrent);
+  }, []);
 
-    render(){
         return(
-            <div className = "block">
+            <div
+            className={`block fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            ref={domRef}
+            >
               <h1>About Me</h1>
               <div className = "aboutPage">
               <div className = "about">
@@ -25,6 +37,7 @@ class About extends Component {
               </div>
     
       );
-};
 
-}export default About;
+
+}
+export default About;

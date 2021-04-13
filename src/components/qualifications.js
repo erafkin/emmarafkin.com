@@ -1,8 +1,19 @@
-import React, {Component} from 'react';
-class Qualifications extends Component {
-    render(){
+import React, {useState, useEffect, useRef} from 'react';
+const Qualifications = (props) =>  {
+    const [isVisible, setVisible] = useState(true);
+    const domRef = useRef();
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+        });
+        const domRefCurrent = domRef.current
+        observer.observe(domRefCurrent);
+        return () => observer.unobserve(domRefCurrent);
+    }, []);
+    
         return(
-            <div className = "block" id = "qual">
+            <div className={`block fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            ref={domRef} id = "qual">
             <h1>Qualifications</h1>
             <div className = "school" >
             <h2 style = {{color: "#8eead1"}}>Stack</h2>
@@ -50,13 +61,12 @@ class Qualifications extends Component {
                     <li> LING21 -- Phonology</li>
                     <li> LING17 -- Sociolinguistics</li>
                     <li> LING1 -- Introductory Linguistics</li>
-                    <br/>
-                    <li> MATH 11 -- Multivariable Calculus</li>
+                    <li> WGSS 53 -- Language, Gender, and Sexuality</li>
 
                 </ul>
-                
             </div>
          </div>
         );
-    }
-}export default Qualifications;
+    
+}
+export default Qualifications;
