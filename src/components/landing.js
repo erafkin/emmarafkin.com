@@ -123,7 +123,7 @@ class Landing extends Component{
         <div className = "landing-page">
             <div className = "title">
                <h1 className = "name">Emma Rafkin</h1>
-               <p>I'm a developer from Chicago studying computer science and linguistics at Dartmouth College. I love the outdoors, working with kids, and learning about computational linguistics</p>
+               <p>I'm a developer from Chicago who studied computer science and linguistics at Dartmouth College. I love the outdoors, working with kids, and learning about computational linguistics</p>
             </div>
               
         </div>

@@ -26,7 +26,7 @@ const SpeechSurrogates  = (props) =>  {
                 <div className = "projectBlurb">
                 Speech Surrogates is a website dedicated to musical surrogates for languges around the world. This was a site created for professor Laura McPherson at Dartmouth College. <br/>
                 This site includes a blog, editable pages, and an interactive database for displaying surrogate languages. Please note that the first load will take 30 seconds because the website is under development and is hosted on the free tier of heroku, which sleeps after 30 minutes of no use. <br/>
-                <a href = "http://speechsurrogates.org/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
+                <a href = "http://speechsurrogates.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
                 <a href = "https://github.com/erafkin/speech-surrogates-frontend" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo" /></a>    
 
             </div>
@@ -53,7 +53,7 @@ const SpeechSurrogates  = (props) =>  {
                 <div className = "projectBlurb">
                 Speech Surrogates is a website dedicated to musical surrogates for languges around the world. This was a site created for professor Laura McPherson at Dartmouth College. <br/>
                 This site includes a blog, editable pages, and an interactive database for displaying surrogate languages. Please note that the first load will take 30 seconds because the website is under development and is hosted on the free tier of heroku, which sleeps after 30 minutes of no use.  <br/> 
-                <a href = "http://speechsurrogates.org/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
+                <a href = "http://speechsurrogates.surge.sh/" target = "_blank"  rel = "noopener noreferrer"><img src = {open} style = {{width:"25px"}} alt = "open icon"/></a>
                 <a href = "https://github.com/erafkin/speech-surrogates-frontend" target = "_blank" rel = "noopener noreferrer"><img src = {github} style = {{width:"25px"}} alt = "github logo" /></a>    
 
                 </div>
